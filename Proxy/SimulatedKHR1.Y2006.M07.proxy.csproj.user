@@ -1,0 +1,17 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ReferencePath>c:\microsoft robotics studio (august 2006)\bin;c:\windows\microsoft.net\framework\v2.0.50727;c:\microsoft robotics studio (august 2006)\bin\services</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartWorkingDirectory>C:\Microsoft Robotics Studio (August 2006)</StartWorkingDirectory>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Microsoft Robotics Studio (August 2006)\bin\dsshost.exe</StartProgram>
+    <StartArguments>-port:50000 -tcpport:50001 -manifest:"samples/Simulation/Kondo_KHR1/KHR1/Proxy/SimulatedKHR1.Y2006.M07.proxy.manifest.xml"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartWorkingDirectory>C:\Microsoft Robotics Studio (August 2006)</StartWorkingDirectory>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Microsoft Robotics Studio (August 2006)\bin\dsshost.exe</StartProgram>
+    <StartArguments>-port:50000 -tcpport:50001 -manifest:"samples/Simulation/Kondo_KHR1/KHR1/Proxy/SimulatedKHR1.Y2006.M07.proxy.manifest.xml"</StartArguments>
+  </PropertyGroup>
+</Project>
